@@ -1,0 +1,14 @@
+number_to_multiply = 1
+
+print("3 Times Table:")
+
+
+while number_to_multiply <= 10:
+    
+    result = 3 * number_to_multiply
+    
+    
+    print("3 x", number_to_multiply, "=", result)
+    
+   
+    number_to_multiply += 1
