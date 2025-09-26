@@ -1,0 +1,28 @@
+names = ["Liam", "Sophia", "Noah", "Emma"]
+print(f"Original list: {names}")
+print("-" * 20)  # A little separator for clarity
+
+print("1. Using append() to add 'Olivia'")
+names.append("Olivia")
+print(f"List after append: {names}")
+print("-" * 20)
+
+print("2. Using remove() to take out 'Noah'")
+names.remove("Noah")
+print(f"List after remove: {names}")
+print("-" * 20)
+
+print("3. Using sort() to order the names")
+names.sort()
+print(f"List after sort: {names}")
+print("-" * 20)
+
+print("4. Using pop(1) to remove the second name")
+removed_name = names.pop(1)
+print(f"The name removed was: {removed_name}")
+print(f"List after pop: {names}")
+print("-" * 20)
+
+print("5. Using len() to count the items")
+number_of_names = len(names)
+print(f"There are now {number_of_names} names in the list.")
