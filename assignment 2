@@ -1,0 +1,18 @@
+grade_score = 94
+
+# Now we check the score to see what grade it is.
+if grade_score >= 85:
+    print("The score is", grade_score)
+    print("The grade is A. Great job!")
+elif grade_score >= 70:
+    # This is for scores from 70 to 84
+    print("The score is", grade_score)
+    print("The grade is B.")
+elif grade_score >= 50:
+    # This is for scores from 50 to 69
+    print("The score is", grade_score)
+    print("The grade is C.")
+else:
+    # If the score is less than 50
+    print("The score is", grade_score)
+    print("The grade is F. You should study more.")
